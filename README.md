@@ -302,4 +302,6 @@ This project was built from scratch as a practical **B.Tech Computer Science & E
 - Practical problem solving for Indian agriculture.
 
 © 2026 KrishiGen AI. All agricultural references aligned with ICAR and KVK extension guidelines.
-
+CREATED BY 
+AMAN KUMAR 
+COER UNIVERSITY
