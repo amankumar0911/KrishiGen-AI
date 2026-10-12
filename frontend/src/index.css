@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+@theme {
+  --color-krishi-50: #f2f8f3;
+  --color-krishi-100: #e1efe3;
+  --color-krishi-200: #c4dec8;
+  --color-krishi-300: #99c7a0;
+  --color-krishi-400: #6cae75;
+  --color-krishi-500: #3f8f4a;
+  --color-krishi-600: #2d7337;
+  --color-krishi-700: #1b5226;
+  --color-krishi-800: #143d1d;
+  --color-krishi-900: #0d2813;
+
+  --color-earth-50: #fbf8f3;
+  --color-earth-100: #f6f0e4;
+  --color-earth-200: #ecdcc4;
+  --color-earth-300: #dec29d;
+  --color-earth-400: #cfa675;
+  --color-earth-500: #bc6c25;
+  --color-earth-600: #9d551c;
+  --color-earth-700: #7e4018;
+  --color-earth-800: #673519;
+  --color-earth-900: #552d17;
+
+  --color-wheat-50: #fdfdf6;
+  --color-wheat-100: #faf7e6;
+  --color-wheat-200: #f4eec7;
+  --color-wheat-300: #ebdf9f;
+  --color-wheat-400: #dec973;
+  --color-wheat-500: #d4a373;
+  --color-wheat-600: #b88252;
+  --color-wheat-700: #96633d;
+
+  --color-soil: #4a3728;
+  --color-offwhite: #fcfbf7;
+}
+
+@layer base {
+  body {
+    background-color: #fbfaf5;
+    color: #1a2421;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.012em;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(45, 115, 55, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(45, 115, 55, 0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.pulse-glow {
+  animation: pulseGlow 2.5s infinite;
+}
+
+/* Custom friendly scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ece1;
+}
+::-webkit-scrollbar-thumb {
+  background: #bfb5a3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8c816e;
+}
+
+/* Hide scrollbar for carousels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Inputs & Form controls styling */
+input, select, textarea {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #2d7337 !important;
+  box-shadow: 0 0 0 3px rgba(45, 115, 55, 0.18) !important;
+  outline: none !important;
+  background-color: #ffffff !important;
+}
+
+/* Custom Card & Button Utility Classes */
+.krishi-card {
+  background-color: #ffffff;
+  border: 1px solid #e7dfcf;
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px 0 rgba(28, 36, 33, 0.04);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.krishi-card:hover {
+  border-color: #99c7a0;
+  box-shadow: 0 6px 16px -2px rgba(27, 82, 38, 0.08);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #1b5226 0%, #2d7337 100%);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px 0 rgba(20, 61, 29, 0.2);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: linear-gradient(135deg, #143d1d 0%, #1b5226 100%);
+  box-shadow: 0 4px 8px 0 rgba(20, 61, 29, 0.25);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active:not(:disabled) {
+  transform: translateY(0);
+}

@@ -1,0 +1,433 @@
+[
+  {
+    "id": "wheat",
+    "name_en": "Wheat",
+    "name_hi": "गेहूं",
+    "botanical_name": "Triticum aestivum",
+    "category": "Cereal",
+    "season": "Rabi (रबी - Winter)",
+    "sowing_period": "November to Early December",
+    "harvest_period": "March to April",
+    "temperature_range": "10°C to 25°C (Cool climate during vegetative growth, warm at maturity)",
+    "rainfall": "75 - 100 cm annual (or 4-6 planned irrigations)",
+    "soil_types": [
+      "Well-drained Fertile Loam (दोमट)",
+      "Clay Loam (चिकनी दोमट)",
+      "Alluvial Soil (जलोढ़ मिट्टी)"
+    ],
+    "soil_ph": "6.0 - 7.5",
+    "irrigation_schedule": [
+      {
+        "stage": "CRI (Crown Root Initiation / शिखर जड़ बनना)",
+        "timing": "20-25 days after sowing",
+        "critical": true,
+        "notes": "Most critical irrigation. Missing this can cause 20-30% yield loss."
+      },
+      {
+        "stage": "Tillering (कल्ले फूटना)",
+        "timing": "40-45 days after sowing",
+        "critical": false,
+        "notes": "Encourages vigorous lateral shoot and tillering development."
+      },
+      {
+        "stage": "Late Jointing (गांठ बनना)",
+        "timing": "60-65 days after sowing",
+        "critical": false,
+        "notes": "Ensures strong stem growth."
+      },
+      {
+        "stage": "Flowering / Heading (फूल और बाली निकलना)",
+        "timing": "80-85 days after sowing",
+        "critical": true,
+        "notes": "High moisture requirement. Avoid water stagnation."
+      },
+      {
+        "stage": "Milking Stage (दूधिया अवस्था)",
+        "timing": "100-105 days after sowing",
+        "critical": false,
+        "notes": "Aids grain size and starch accumulation."
+      },
+      {
+        "stage": "Dough / Grain Filling (दाना पकना)",
+        "timing": "115-120 days after sowing",
+        "critical": false,
+        "notes": "Stop irrigation 10-15 days before harvest to prevent lodging."
+      }
+    ],
+    "nutrient_management": {
+      "organic": "Apply 8-10 tonnes/ha well-decomposed FYM (गोबर की खाद) during land preparation 3-4 weeks before sowing.",
+      "npk_ratio": "120:60:40 kg/ha (N:P:K)",
+      "fertilizer_schedule": [
+        "Basal Dose: Full Phosphorus (P₂O₅ 60 kg/ha), full Potash (K₂O 40 kg/ha), and 1/3rd Nitrogen (Urea ~50 kg/ha) at sowing.",
+        "First Top Dressing: 1/3rd Nitrogen at first irrigation (CRI stage, 21-25 DAS).",
+        "Second Top Dressing: Remaining 1/3rd Nitrogen at jointing/tillering stage (45-50 DAS)."
+      ],
+      "micronutrients": "Zinc deficiency is common in Indo-Gangetic plains. Apply 25 kg/ha Zinc Sulphate (21%) at soil prep or foliar spray 0.5% ZnSO₄ with 0.25% lime."
+    },
+    "common_diseases": [
+      {
+        "name": "Yellow / Stripe Rust (पीला रतुआ - Puccinia striiformis)",
+        "symptoms": "Yellow powder pustules arranged in linear stripes on upper leaf surface. Dust sticks to fingers.",
+        "prevention": "Grow rust-resistant certified varieties (e.g., HD-2967, DBW-187, DBW-222, PBW-550). Avoid late sowing.",
+        "treatment": "Spray Propiconazole 25% EC (Tilt) @ 1 ml/litre water or Tebuconazole 250 EC at first sign of disease pustules."
+      },
+      {
+        "name": "Loose Smut (कंगियारी / काला चूर्ण)",
+        "symptoms": "Ears completely turn into black powdery mass of spores. Whole ear is destroyed.",
+        "prevention": "Seed treatment with Carbendazim (Bavistin) or Carboxin @ 2-2.5 g/kg seed before sowing.",
+        "treatment": "Rogue out infected earheads early morning in polythene bags and burn them away from field."
+      },
+      {
+        "name": "Karnal Bunt (करनाल बंट)",
+        "symptoms": "Part of grain replaced by black powdery mass smelling of rotten fish (trimethylamine).",
+        "prevention": "Use certified seed, avoid excessive nitrogenous fertilization and damp soil during heading.",
+        "treatment": "One prophylactic spray of Propiconazole 25 EC @ 0.1% at boot leaf / heading stage."
+      }
+    ],
+    "common_pests": [
+      {
+        "name": "Wheat Aphids (माहू / चेपा)",
+        "symptoms": "Tiny green insects congregating on leaves and earheads, sucking sap, causing curling and stunted grains.",
+        "management": "Conserve Ladybird beetles (Coccinellids). Spray Neem oil 5ml/L or Imidacloprid 17.8 SL @ 0.3 ml/L if population exceeds 10 aphids/tiller."
+      },
+      {
+        "name": "Termites (दीमक)",
+        "symptoms": "Attacks root system; drying and wilting of plants in patches, easily uprooted.",
+        "management": "Treat seeds with Chlorpyrifos 20 EC @ 4 ml/kg seed before sowing. Avoid untreated raw farmyard manure."
+      }
+    ],
+    "growth_stage_precautions": [
+      {
+        "stage": "Land Preparation & Sowing",
+        "precautions": "Ensure fine tilth, treat seeds with fungicide/Trichoderma, maintain optimum moisture at sowing depth (4-5 cm)."
+      },
+      {
+        "stage": "CRI (Crown Root Initiation)",
+        "precautions": "Do not delay irrigation beyond 25 DAS; light irrigation is sufficient, prevent waterlogging."
+      },
+      {
+        "stage": "Flowering & Milking",
+        "precautions": "Watch for sudden rise in terminal heat in late Feb/March. Provide light irrigation on calm (wind-free) days to reduce lodging risk."
+      },
+      {
+        "stage": "Harvesting",
+        "precautions": "Harvest when grain moisture drops to 12-14% and ears turn golden yellow."
+      }
+    ],
+    "regional_notes": "Recommended widely in Punjab, Haryana, Uttar Pradesh, Madhya Pradesh, Bihar, and Rajasthan. Always consult local Krishi Vigyan Kendra (KVK) for district-specific sowing dates and approved varieties."
+  },
+  {
+    "id": "rice",
+    "name_en": "Rice / Paddy",
+    "name_hi": "धान / चावल",
+    "botanical_name": "Oryza sativa",
+    "category": "Cereal",
+    "season": "Kharif (खरीफ - Monsoon)",
+    "sowing_period": "May - June (Nursery), July (Transplanting)",
+    "harvest_period": "October to November",
+    "temperature_range": "22°C to 35°C (Warm, humid tropical and sub-tropical conditions)",
+    "rainfall": "100 - 150 cm or assured irrigation / ponding water",
+    "soil_types": [
+      "Heavy Clay (चिकनी मिट्टी)",
+      "Clay Loam with high water retention",
+      "Alluvial Lowlands"
+    ],
+    "soil_ph": "5.5 - 7.0",
+    "irrigation_schedule": [
+      {
+        "stage": "Transplanting to Rooting",
+        "timing": "0-10 days after transplanting (DAT)",
+        "critical": true,
+        "notes": "Maintain shallow water depth of 2-3 cm for easy establishment."
+      },
+      {
+        "stage": "Active Tillering",
+        "timing": "15-35 DAT",
+        "critical": false,
+        "notes": "Maintain 3-5 cm water depth. Alternate wetting and drying (AWD) can save 20% water."
+      },
+      {
+        "stage": "Panicle Initiation to Flowering",
+        "timing": "45-70 DAT",
+        "critical": true,
+        "notes": "Most sensitive stage to drought. Maintain 5 cm continuous standing water."
+      },
+      {
+        "stage": "Grain Filling to Maturity",
+        "timing": "75-95 DAT",
+        "critical": false,
+        "notes": "Drain field completely 10-14 days before harvest to facilitate mechanical cutting."
+      }
+    ],
+    "nutrient_management": {
+      "organic": "Green manuring with Dhaincha (Sesbania) or Sunnhemp incorporated 10 days before transplanting.",
+      "npk_ratio": "100-120:50-60:40-50 kg/ha (N:P:K)",
+      "fertilizer_schedule": [
+        "Basal: 100% P and K + 25-33% Nitrogen at final puddling.",
+        "First Top Dressing: 33% Nitrogen at active tillering (20-25 DAT).",
+        "Second Top Dressing: Remaining Nitrogen at panicle initiation (40-45 DAT)."
+      ],
+      "micronutrients": "Zinc deficiency causes Khaira disease (खैरा रोग). Apply 25 kg/ha Zinc Sulphate heptahydrate (21%) at final puddling or foliar spray 5kg ZnSO₄ + 2.5kg lime in 1000L water/ha."
+    },
+    "common_diseases": [
+      {
+        "name": "Blast (झुलसा रोग - Pyricularia oryzae)",
+        "symptoms": "Spindle-shaped eye spots with grey/white center and brown-red margin on leaves, or rotting at node/neck of panicle (Neck blast).",
+        "prevention": "Avoid excess nitrogen fertilizer. Seed treatment with Tricyclazole 75 WP @ 2 g/kg seed.",
+        "treatment": "Foliar spray of Tricyclazole 75 WP @ 0.6 g/L or Isoprothiolane 40 EC @ 1.5 ml/L at first disease detection."
+      },
+      {
+        "name": "Bacterial Leaf Blight (BLB - जीवाणु पत्ती झुलसा)",
+        "symptoms": "Water-soaked lesions on leaf tips drying into wavy greenish-yellow to bleached white straw stripes.",
+        "prevention": "Ensure good drainage. Balance nitrogen with adequate potassium. Use resistant varieties like Swarna Sub-1, Samba Mahsuri.",
+        "treatment": "Drain excess water. Spray Copper Oxychloride 50 WP (2.5 g/L) + Streptocycline (0.1 g/L)."
+      },
+      {
+        "name": "Sheath Blight (शीथ ब्लाइट)",
+        "symptoms": "Oval irregular greenish-grey spots on leaf sheaths near water line resembling snake skin.",
+        "prevention": "Avoid thick planting and excessive urea. Clean weeds from bunds.",
+        "treatment": "Spray Validamycin 3L @ 2 ml/L or Hexaconazole 5 EC @ 2 ml/L directed towards plant base."
+      }
+    ],
+    "common_pests": [
+      {
+        "name": "Yellow Stem Borer (तना छेदक)",
+        "symptoms": "Dead heart in vegetative stage (central shoot dries); white earhead (empty chaffy white panicle) at reproductive stage.",
+        "management": "Install pheromone traps @ 8-10 traps/ha. Apply Cartap Hydrochloride 4G @ 10 kg/acre or Chlorantraniliprole 0.4 GR."
+      },
+      {
+        "name": "Brown Plant Hopper - BPH (भूरा फुदका)",
+        "symptoms": "Plants turn yellow, wilt and dry rapidly in circular patches known as 'Hopper burn'.",
+        "management": "Form 30 cm alleyways ('passing ways') every 2-3 meters. Spray Pymetrozine 50% WDG @ 0.6 g/L or Triflumezopyrim 10 SC."
+      }
+    ],
+    "growth_stage_precautions": [
+      {
+        "stage": "Nursery Preparation",
+        "precautions": "Treat seeds with Carbendazim or Trichoderma. Keep nursery weed-free and protect against stem borer."
+      },
+      {
+        "stage": "Puddling & Transplanting",
+        "precautions": "Transplant 20-25 day old seedlings, 2-3 per hill at 20x15 cm spacing. Ensure proper field leveling."
+      },
+      {
+        "stage": "Panicle Initiation",
+        "precautions": "Never let the field go completely dry; moisture deficit at this stage severely reduces grain filling."
+      },
+      {
+        "stage": "Harvesting",
+        "precautions": "Harvest when 85% of panicles turn golden yellow. Dry grains to 12-14% moisture before storage."
+      }
+    ],
+    "regional_notes": "Dominant across West Bengal, Uttar Pradesh, Punjab, Andhra Pradesh, Odisha, Tamil Nadu, and Bihar. Follow local state agricultural university recommendations for direct seeded rice (DSR) vs transplanted rice."
+  },
+  {
+    "id": "tomato",
+    "name_en": "Tomato",
+    "name_hi": "टमाटर",
+    "botanical_name": "Solanum lycopersicum",
+    "category": "Vegetable",
+    "season": "Year-round (Autumn-Winter, Spring-Summer, Rainy)",
+    "sowing_period": "August-September (Autumn), November-December (Spring), June-July (Monsoon)",
+    "harvest_period": "60-90 days after transplanting (multiple pickings)",
+    "temperature_range": "18°C to 27°C (Temperatures above 35°C reduce pollen fertility and fruit set)",
+    "rainfall": "60 - 80 cm with regular light drip or furrow irrigation",
+    "soil_types": [
+      "Deep Sandy Loam (बलुई दोमट)",
+      "Well-drained Clay Loam rich in organic matter"
+    ],
+    "soil_ph": "6.0 - 7.0",
+    "irrigation_schedule": [
+      {
+        "stage": "Post Transplanting",
+        "timing": "Immediately after planting and at 3-4 days interval",
+        "critical": true,
+        "notes": "Helps quick root establishment. Avoid heavy flood irrigation."
+      },
+      {
+        "stage": "Vegetative Growth",
+        "timing": "Every 5-7 days depending on temperature",
+        "critical": false,
+        "notes": "Maintain steady moisture; fluctuating moisture causes fruit cracking."
+      },
+      {
+        "stage": "Flowering and Fruit Set",
+        "timing": "Every 4-5 days (drip preferred)",
+        "critical": true,
+        "notes": "Moisture stress causes flower drops and Blossom End Rot (BER)."
+      },
+      {
+        "stage": "Fruit Ripening & Harvesting",
+        "timing": "Light irrigation after each harvest picking",
+        "critical": false,
+        "notes": "Excessive watering near picking softens fruit skin and decreases shelf life."
+      }
+    ],
+    "nutrient_management": {
+      "organic": "Apply 15-20 tonnes/ha well-rotted cow dung compost or vermicompost 4 tonnes/ha.",
+      "npk_ratio": "150:100:120 kg/ha for hybrids (N:P:K)",
+      "fertilizer_schedule": [
+        "Basal: 100% P, 50% K, and 25% N at transplanting.",
+        "Split 1: 25% N and 25% K at 30 days after transplanting.",
+        "Split 2: 25% N and 25% K at flowering onset (45-50 DAT).",
+        "Split 3: Remaining 25% N during peak fruit development."
+      ],
+      "micronutrients": "Calcium deficiency causes Blossom End Rot (black sunken bottom of tomato). Foliar spray Calcium Nitrate (0.5%) + Boron (0.1%) during flowering."
+    },
+    "common_diseases": [
+      {
+        "name": "Early Blight (अगेती झुलसा - Alternaria solani)",
+        "symptoms": "Concentric rings ('target board' pattern) with dark brown or black spots on older leaves, progressing upward.",
+        "prevention": "Crop rotation, prune lower foliage touching soil, maintain good spacing for airflow.",
+        "treatment": "Spray Mancozeb 75 WP (2.5 g/L) or Azoxystrobin + Difenoconazole @ 1 ml/L."
+      },
+      {
+        "name": "Late Blight (पछेती झुलसा - Phytophthora infestans)",
+        "symptoms": "Water-soaked irregular pale green/brown patches on leaves with white fluffy fungal growth on underside in cool damp weather.",
+        "prevention": "Avoid overhead watering; remove infected leaves immediately; avoid excessive nitrogen.",
+        "treatment": "Prophylactic spray of Mancozeb or systemic spray of Metalaxyl 8% + Mancozeb 64% WP (Ridomil MZ) @ 2.5 g/L."
+      },
+      {
+        "name": "Tomato Leaf Curl Virus - ToLCV (पत्ती मरोड़ रोग)",
+        "symptoms": "Upward curling and crinkling of leaves, yellowing of veins, stunted plant growth with bushy appearance.",
+        "prevention": "Transmitted by Whiteflies (Bemisia tabaci). Install yellow sticky traps (15-20 traps/acre). Use nylon net nurseries (40 mesh).",
+        "treatment": "No direct cure once infected. Control whitefly vector using Acetamiprid 20 SP (0.5 g/L) or Spiromesifen 22.9 SC (1 ml/L)."
+      }
+    ],
+    "common_pests": [
+      {
+        "name": "Tomato Fruit Borer (फल छेदक - Helicoverpa armigera)",
+        "symptoms": "Caterpillars bore into fruits making circular entry holes; fruits rot and drop prematurely.",
+        "management": "Plant African Marigold as trap crop (1 row every 16 rows of tomato). Spray Bacillus thuringiensis (Bt) @ 2 g/L or Emamectin Benzoate 5 SG @ 0.4 g/L."
+      },
+      {
+        "name": "Whitefly (सफेद मक्खी - Bemisia tabaci)",
+        "symptoms": "Tiny white winged insects under leaf surface; secrete sticky honeydew causing black sooty mold and vector viruses.",
+        "management": "Yellow sticky traps; spray Neem seed kernel extract (NSKE 5%) or Imidacloprid 17.8 SL (0.5 ml/L)."
+      }
+    ],
+    "growth_stage_precautions": [
+      {
+        "stage": "Seedling Nursery",
+        "precautions": "Raise on 15 cm raised beds, protect with insect nets, drench with Trichoderma to prevent Damping-Off."
+      },
+      {
+        "stage": "Transplanting & Staking",
+        "precautions": "Stake indeterminate varieties using bamboo or trellising to keep fruits off damp soil."
+      },
+      {
+        "stage": "Flowering & Fruiting",
+        "precautions": "Ensure regular balanced irrigation; moisture dry-wet shocks cause blossom end rot and fruit splitting."
+      },
+      {
+        "stage": "Harvesting",
+        "precautions": "Pick fruits at 'breaker' or pink stage for distant markets; pick red ripe for immediate local consumption."
+      }
+    ],
+    "regional_notes": "Widely grown in Andhra Pradesh, Madhya Pradesh, Karnataka, Gujarat, Odisha, and Maharashtra. Soil-borne bacterial wilt is high in acidic soils — choose wilt-resistant varieties like Arka Rakshak or Arka Samrat."
+  },
+  {
+    "id": "potato",
+    "name_en": "Potato",
+    "name_hi": "आलू",
+    "botanical_name": "Solanum tuberosum",
+    "category": "Tuber / Vegetable",
+    "season": "Rabi (रबी - Winter)",
+    "sowing_period": "October to November (Plains), March to April (Hills)",
+    "harvest_period": "January to March (90-120 days depending on variety)",
+    "temperature_range": "15°C to 22°C (Tuber initiation stops if soil temp exceeds 30°C)",
+    "rainfall": "50 - 70 cm with well-spaced furrow or drip irrigations",
+    "soil_types": [
+      "Well-drained Sandy Loam (बलुई दोमट) rich in humus",
+      "Loose, friable silt loam free from stones and clods"
+    ],
+    "soil_ph": "5.2 - 6.4 (Slightly acidic helps prevent Potato Scab)",
+    "irrigation_schedule": [
+      {
+        "stage": "Pre-planting",
+        "timing": "Before ridge formation",
+        "critical": true,
+        "notes": "Ensure good moisture in soil so seeds germinate without initial flood water rotting."
+      },
+      {
+        "stage": "Stolon Formation & Tuber Initiation",
+        "timing": "20-30 days after planting (DAP)",
+        "critical": true,
+        "notes": "Most critical stage. Light furrow irrigation. Water should not overflow ridge crest."
+      },
+      {
+        "stage": "Tuber Bulking / Development",
+        "timing": "35-70 DAP",
+        "critical": true,
+        "notes": "Maintain continuous uniform moisture. Water deficit causes knobby or cracked tubers."
+      },
+      {
+        "stage": "Dehaulming & Pre-Harvest",
+        "timing": "10-15 days before digging",
+        "critical": false,
+        "notes": "Cut haulms (vines) and withhold irrigation completely to harden tuber skin."
+      }
+    ],
+    "nutrient_management": {
+      "organic": "Apply 25-30 tonnes/ha well-decomposed farmyard manure 3 weeks before planting.",
+      "npk_ratio": "150-180:80-100:100-120 kg/ha (N:P:K)",
+      "fertilizer_schedule": [
+        "Basal: Full P, full K, and half Nitrogen at planting in furrows 5 cm below seed tubers.",
+        "Top Dressing: Remaining half Nitrogen at earthing-up (मिट्टी चढ़ाना) around 30-35 DAP."
+      ],
+      "micronutrients": "Foliar spray of Zinc Sulphate (0.2%) + Boric Acid (0.1%) at 45 DAP promotes uniform tuber skin texture."
+    },
+    "common_diseases": [
+      {
+        "name": "Late Blight of Potato (पछेती झुलसा - Phytophthora infestans)",
+        "symptoms": "Water-soaked dark lesions on leaf edges spreading rapidly; white downy mildew on underside in foggy damp mornings; tubers show brownish-purple dry rot.",
+        "prevention": "Use certified disease-free seed tubers (Kufri Pukhraj, Kufri Jyoti, Kufri Mohan). Avoid excessive dampness.",
+        "treatment": "Spray Mancozeb 75 WP (2.5 g/L) as preventive spray; switch to Cymoxanil + Mancozeb (Moximate @ 2.5 g/L) or Dimethomorph (1 g/L) at first symptom."
+      },
+      {
+        "name": "Early Blight (अगेती झुलसा - Alternaria solani)",
+        "symptoms": "Small brown angular spots with concentric target-board rings on leaves.",
+        "prevention": "Rotate crops; destroy debris after harvest.",
+        "treatment": "Foliar spray of Chlorothalonil 75 WP @ 2 g/L or Mancozeb @ 2.5 g/L."
+      },
+      {
+        "name": "Common Scab (खुरंड / स्कैब - Streptomyces scabies)",
+        "symptoms": "Rough, corky, brownish raised or pitted lesions on tuber skin reducing market value.",
+        "prevention": "Maintain soil pH around 5.5. Maintain good soil moisture during tuberization. Avoid fresh uncomposted lime or poultry manure.",
+        "treatment": "Seed tuber treatment with Boric Acid 3% for 20-30 minutes before cold storage or before planting."
+      }
+    ],
+    "common_pests": [
+      {
+        "name": "Potato Tuber Moth - PTM (आलू शलभ - Phthorimaea operculella)",
+        "symptoms": "Larvae mine leaves and bore into exposed tubers in fields or in open storage, filling galleries with black frass.",
+        "management": "Ensure deep planting (10-15 cm) and thorough earthing up to keep tubers covered. Cover country store potatoes with 2.5 cm dried sand layer or Lantana leaves."
+      },
+      {
+        "name": "Cutworms (कटवर्म / सुंडी - Agrotis ipsilon)",
+        "symptoms": "Caterpillars hide in soil by day and cut tender young plant stems at ground level at night.",
+        "management": "Deep summer plowing to expose pupae to birds; drench soil with Chlorpyrifos 20 EC @ 2.5 ml/L near plant rows."
+      }
+    ],
+    "growth_stage_precautions": [
+      {
+        "stage": "Seed Tuber Sprouting & Treatment",
+        "precautions": "Take out certified seed tubers from cold storage 10-14 days early for green sprouting (chit). Treat with Mencozeb 2.5 g/L."
+      },
+      {
+        "stage": "Earthing Up (मिट्टी चढ़ाना)",
+        "precautions": "Perform earthing up 25-30 DAP. Tubers exposed to sunlight turn green and toxic (solanine production)."
+      },
+      {
+        "stage": "Dehaulming (बेल काटना)",
+        "precautions": "Cut top vines 10-12 days prior to digging. This hardens tuber skin and prevents skin peeling during harvest."
+      },
+      {
+        "stage": "Curing & Storage",
+        "precautions": "Dry harvested tubers in shade for 7-10 days before packing into gunny bags. Do not expose to direct harsh sun."
+      }
+    ],
+    "regional_notes": "Key production centers in Uttar Pradesh (Agra, Aligarh, Farrukhabad), West Bengal, Bihar, Punjab, and Gujarat. Check regional advisories from Central Potato Research Institute (CPRI, Shimla)."
+  }
+]
+
